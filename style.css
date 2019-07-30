@@ -1,0 +1,68 @@
+.main-class{
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    margin: 60px 0;
+    background-color:lightgray;
+    font-weight: bold;
+    
+}
+
+body{
+    background-image: url(istockphoto-120004828-1024x1024.jpg);
+}
+
+.button{
+    height: 50px;
+    background-color: lightgray;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input{
+    width: 35%;
+    height: 25px;
+    background-color: lightgray;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+[target=_blank]{
+    color: #000;
+}
+.add{
+    background-color: blue;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 30px;
+}
+
+nav{
+    background-color: blue;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.dropbtn {
+    background-color: lightgray;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
