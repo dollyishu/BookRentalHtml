@@ -1,25 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
 .main-class{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    font-weight: normal;
-    margin: 60px 0;
-    background-color:lightgray;
+    margin: 10px 0;
+    background-color:black;
+    color: white;
     font-weight: bold;
     
 }
 
+h3{
+    background-image: url(icons8-open-book-50.png);
+    background-position: 120px;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    text-align: left;
+    color: black;
+    padding-left: 80px;
+}
+
+h4{
+    font-size: 12px;
+    text-align: right;
+    padding-right: 60px;
+    margin: 5px;
+}
+
+#search-text-input{
+    float: right;
+    height:20px;
+    margin: 0;
+    margin-right: 80px; 
+    font-size: 10px;
+    padding-right: 40px; 
+    width:150px;
+    text-align: left; 
+}
+  
+#button-holder{
+    background-color:blue;
+    cursor:pointer;
+    float: right;
+    height:20px;
+    margin: 0;
+    margin-right: -180px;
+    text-align:center;
+    width:30px;
+}
+  
+#button-holder img{
+    margin:2px;
+    width:18px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 50px;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: underline;
+}
+
 body{
-    background-image: url(istockphoto-120004828-1024x1024.jpg);
+    background-size: 100%;
+    background-color: lightgray;
 }
 
 .button{
-    height: 50px;
+    height: 30px;
     background-color: lightgray;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 30%;
+    width: 120px;
+    margin-left: 5%;
+    margin-right: 70%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 input{
@@ -30,6 +102,42 @@ input{
     margin-left: 30%;
     margin-right: 35%;
     text-align: center;
+}
+
+.story-image{
+    width: 50%;
+}
+.story-title{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.story-text{
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.story{
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.half{
+    width: 50%;
+    flex: 2;
+} 
+span{
+    text-decoration: underline;
 }
 
 [target=_blank]{
@@ -51,18 +159,31 @@ nav{
     background-color: blue;
     font-weight: bold;
     padding: 5px 10px;
-    text-align: center;
     display: inline-block;
     justify-content: center;
     margin-left: 60px;
     margin-right: 30px;
 }
+footer{
+    padding: 20px;
+    margin: 0;
+    background-color: black;
+}
 
-.dropbtn {
-    background-color: lightgray;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
+table,td{
+    border: 1px solid black;
+    background-color: pink;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 15px;
+    margin: 80px;
+    width: 80%;
+    height: 20px; 
+}
+
+th{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+}
